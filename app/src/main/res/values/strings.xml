@@ -1,0 +1,72 @@
+<resources>
+    <string name="app_name">Calc 7 Wonders</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_app">Calc Points</string>
+
+    <string name="military_conflicts">Military Conflicts</string>
+    <string name="treasury_contents">Treasury Contents</string>
+    <string name="wonders">Wonders</string>
+    <string name="civilian_structures">Civilian Structures</string>
+    <string name="scientific_structures">Scientific Structures</string>
+    <string name="commercial_structures">Commercial Structures</string>
+    <string name="guilds">Guilds</string>
+
+    <string name="title_new_score">Create New Score</string>
+    <string name="title_activity_scrolling_score">ScrollingScore</string>
+
+    <string name="player">Player</string>
+
+
+    <string name="a1">Alexandria</string>
+    <string name="a2">Babylon</string>
+    <string name="a3">Byzantium</string>
+    <string name="a4">Ephesos</string>
+    <string name="a5">Gizah</string>
+    <string name="a6">Halikarnassos</string>
+    <string name="a7">Manekenpis</string>
+    <string name="a8">Olympia</string>
+    <string name="a9">Petra</string>
+    <string name="a10">Rhodos</string>
+    <string name="a11">Wonders</string>
+
+
+    <string-array name="planets_array">
+        <item>Alexandria</item>
+        <item>Babylon</item>
+        <item>Byzantium</item>
+        <item>Ephesos</item>
+        <item>Gizah</item>
+        <item>Halikarnassos</item>
+        <item>Manekenpis</item>
+        <item>Olympia</item>
+        <item>Petra</item>
+        <item>Rhodos</item>
+    </string-array>
+
+
+    <string name="large_text">
+        "Material is the metaphor.\n\n"
+
+        "A material metaphor is the unifying theory of a rationalized space and a system of motion."
+        "The material is grounded in tactile reality, inspired by the study of paper and ink, yet "
+        "technologically advanced and open to imagination and magic.\n"
+        "Surfaces and edges of the material provide visual cues that are grounded in reality. The "
+        "use of familiar tactile attributes helps users quickly understand affordances. Yet the "
+        "flexibility of the material creates new affordances that supercede those in the physical "
+        "world, without breaking the rules of physics.\n"
+        "The fundamentals of light, surface, and movement are key to conveying how objects move, "
+        "interact, and exist in space and in relation to each other. Realistic lighting shows "
+        "seams, divides space, and indicates moving parts.\n\n"
+
+        "Bold, graphic, intentional.\n\n"
+
+        "The foundational elements of print based design typography, grids, space, scale, color, "
+        "and use of imagery guide visual treatments. These elements do far more than please the "
+        "eye. They create hierarchy, meaning, and focus. Deliberate color choices, edge to edge "
+        "imagery, large scale typography, and intentional white space create a bold and graphic "
+        "interface that immerse the user in the experience.\n"
+        "An emphasis on user actions makes core functionality immediately apparent and provides "
+        "waypoints for the user.\n\n"
+    </string>
+
+</resources>

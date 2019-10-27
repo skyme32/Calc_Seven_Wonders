@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".ScrollingScore"
+    tools:showIn="@layout/activity_scrolling_score">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginBottom="15dp">
+
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:padding="20dp">
+
+                    <ImageView
+                        android:id="@+id/imageView1"
+                        android:layout_width="32dp"
+                        android:layout_height="32dp"
+                        android:layout_marginRight="5dp"
+                        android:inputType="textCapSentences"
+                        app:srcCompat="@drawable/ic_settings_white_24dp" />
+
+                    <EditText
+                        android:id="@+id/editPlayer"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:ems="12"
+                        android:hint="@string/player"
+                        android:inputType="textPersonName" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:padding="20dp">
+
+                    <ImageView
+                        android:id="@+id/imageView3"
+                        android:layout_width="32dp"
+                        android:layout_height="32dp"
+                        android:layout_marginRight="5dp"
+                        app:srcCompat="@drawable/ic_settings_white_24dp" />
+
+                    <Spinner
+                        android:id="@+id/editPlace"
+                        android:layout_width="wrap_content"
+                        android:ems="12"
+                        android:layout_height="match_parent" />
+
+                </TableRow>
+            </TableLayout>
+
+        </androidx.cardview.widget.CardView>
+
+
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>
